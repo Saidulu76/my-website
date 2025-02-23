@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Languages and Tech</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io//favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io//site.webmanifest">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #7d6796;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #a1bcc7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>HTML,CSS,JAVASCRIPT,NODE.JS,BOOTSTRAP,SQL</h1>
+    <h2>1. HTML (HyperText Markup Language)</h2>
+    <h6>HTML is the backbone of web development. It structures content on the web.</h6>
+    <p>Example:</p>
+    <p><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Web Page</title>
+        </head>
+        <body>
+            <h1>Welcome to My Web Page</h1>
+            <p>This is an example of HTML.</p>
+        </body>
+        </html></p>
+    <h2>2. CSS (Cascading Style Sheets)</h2>
+    <h6>CSS is used to style the HTML content.</h6>
+    <p>Example:</p>
+    <p>body {
+        background-color: lightblue;
+        text-align: center;
+    }
+    
+    h1 {
+        color: darkblue;
+        font-size: 2em;
+    }
+    </p>
+    <h2>3. JavaScript</h2>
+    <h6>JavaScript adds interactivity to web pages.</h6>
+    <p>Example:</p>
+    <p>function showMessage() {
+        alert("Hello! Welcome to my website.");
+    }
+    </p>
+    <p>Use in html</p>
+    <p><button onclick="showMessage()">Click Me</button></p>
+    <h2>4. Bootstrap</h2>
+    <h6>Bootstrap is a CSS framework that helps in designing responsive websites.</h6>
+    <p>Example (Using Bootstrap Button & Card):</p>
+    <p><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <div class="container">
+            <div class="card p-3">
+                <h3 class="text-primary">Bootstrap Example</h3>
+                <button class="btn btn-success">Click Me</button>
+            </div>
+        </div></p>
+    <h2>5. Node.js</h2>
+    <h6>Node.js allows running JavaScript outside a browser (for backend development).</h6>
+    <p>Example (Simple HTTP Server in Node.js):</p>
+    <p>const http = require('http');
+
+        const server = http.createServer((req, res) => {
+            res.writeHead(200, { 'Content-Type': 'text/plain' });
+            res.end('Hello, Node.js Server!');
+        });
+        
+        server.listen(3000, () => {
+            console.log('Server running on http://localhost:3000');
+        });</p>
+    <h2>6. SQL (Structured Query Language)</h2>
+    <h6>SQL is used to interact with databases.</h6>
+    <P>Example (Creating a Table & Inserting Data):</P>
+    <p>CREATE TABLE users (
+        id INT PRIMARY KEY AUTO_INCREMENT,
+        name VARCHAR(50),
+        email VARCHAR(50)
+    );
+    
+    INSERT INTO users (name, email) VALUES ('John Doe', 'john@example.com');</p>
+    </div>
+</body>
+</html>
